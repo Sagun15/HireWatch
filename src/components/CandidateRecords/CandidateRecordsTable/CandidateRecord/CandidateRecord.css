@@ -1,0 +1,46 @@
+.candidate__record {
+    display: grid;
+    grid-template-columns: 5% 20% 25% repeat(3, 15%) 5%;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px 10px;
+    margin: 0.5em 0;
+}
+
+.candidate__record , .candidate__record-detail {
+    background-color: #fff;
+}
+
+.candidate__record .candidate__record-status {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.8rem;
+    letter-spacing: 0.1rem;
+    border-radius: 50px;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+}
+
+.candidate__record-send {
+    background-color: rgb(209, 245, 245);
+    color: rgb(4, 139, 139);
+}
+
+.candidate__record-view {
+    background-color: rgb(243, 212, 212);
+    color: rgb(139, 4, 4);
+}
+
+.candidate__record-actions {
+    background-color: #fff;
+    display: flex;
+    justify-content: baseline;
+}
+
+.candidate__record-action {
+    border-style: none;
+    padding-right: 0.5rem;
+    font-size: large;
+}

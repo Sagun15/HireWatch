@@ -1,0 +1,19 @@
+.records__table {
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.records__table .records__table-header {
+    display: grid;
+    grid-template-columns: 5% 20% 25% repeat(3, 15%) 5%;
+    text-align: center;
+    padding: 10px 10px;
+    font-weight: bold;
+    color: rgb(136, 153, 190);
+}
+
+.records__table-empty {
+    text-align: center;
+    padding: 40px 0;
+    color: rgb(120, 146, 201);
+}
